@@ -49,13 +49,29 @@
     margin: auto;
     border-radius: 8px;
 }
+.form input{
+    width: 100%;
+    border: 0px;
+    border: 1px solid gray;
+    padding: 4px 10px;
+    margin: 7px 0px;
+    border-radius: 6px;
+}
+.form button{
+    border: none;
+    padding:10px 30px;
+    background-image: linear-gradient(to top, red , yellow);
+    border-radius: 6px;
+    color: black;
+}
 
+footer{
+    margin-bottom: 0px;
+}
 
-
-
-
-
-
+#footer-section{
+    margin-bottom: 0px;
+}
 
 
 
