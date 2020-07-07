@@ -1,6 +1,13 @@
 .container{
    margin-bottom: 100px;
 }
+
+.carousel-bg{
+    
+}
+.carousel-control-next{
+    color: green;
+}
 .card{
     border: none;
     box-shadow: 6px 5px 30px lightgray;
