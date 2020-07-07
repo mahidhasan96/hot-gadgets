@@ -22,12 +22,21 @@
 .items img{
     width: 50%;
 }
+.carousel-inner img{
+    width: 50%;
+}
 
+#smartphone{
+    margin-bottom: 0px;
+}
 
-
-
-
-
+.bar{
+    width: 110px;
+    height:10px;
+    background-image: linear-gradient(to left, tomato, orange);
+    margin: auto;
+    border-radius: 8px;
+}
 
 
 
