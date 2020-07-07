@@ -2,12 +2,20 @@
    margin-bottom: 100px;
 }
 
-.carousel-bg{
-    
+#top-section{
+    margin-bottom: 0px;
 }
-.carousel-control-next{
-    color: green;
+.carousel-indicators li{
+    background-color: tomato;
 }
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: red;
+    color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+}
+
 .card{
     border: none;
     box-shadow: 6px 5px 30px lightgray;
@@ -27,9 +35,6 @@
 }
 
 .items img{
-    width: 50%;
-}
-.carousel-inner img{
     width: 50%;
 }
 
