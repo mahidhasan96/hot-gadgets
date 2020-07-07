@@ -1,0 +1,40 @@
+.container{
+   margin-bottom: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 6px 5px 30px lightgray;
+   border-radius: 10px;
+}
+
+.btn-primary{
+    color: white;
+    background-color: black;
+}
+
+.items{
+    box-shadow: 5px 5px 30px lightgrey;
+    padding: 20px 0px;
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
+
+.items img{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
