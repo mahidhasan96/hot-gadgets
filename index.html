@@ -9,26 +9,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container" id="top-section">
+    <div class="container " id="top-section">
         <div class="row">
             <div class="col-3">
               <img style="width: 50%;" src="images/logo.png" alt="">
             </div>
-            <div class="col-9">
-                <ul class="nav justify-content-end">
+            <div class="col-9 d-flex justify-content-end">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                  <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#Home">Home</a>
+                      <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#Product">Product</a>
+                      <a class="nav-link" href="#laptop">laptop</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#About Us">About Us</a>
+                      <a class="nav-link" href="#smartphone">smartphone</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#Contact Us" >Contact Us</a>
+                      <a class="nav-link active" href="#login" >login</a>
                     </li>
                   </ul>
+                </div>
+              </nav>
             </div>
         </div>
     </div>
@@ -104,13 +111,13 @@
             <div class="container" id="Product">
     
             <div class="card-deck">
-            <div class="card text-center">
-            <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">iphone 11 Pro</h5>
-                <p class="card-text">this is the high buddget in the world</p>
-            <h5>$999</h5>
-           <button type="button" class="btn btn-dark">BUY NOW →</button>
+              <div class="card text-center">
+              <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">iphone 11 Pro</h5>
+                  <p class="card-text">this is the high buddget in the world</p>
+                <h5>$999</h5>
+              <button type="button" class="btn btn-dark">BUY NOW →</button>
           </div>
         </div>
         <div class="card text-center">
@@ -141,7 +148,7 @@
         </div>
 </div>
 
- <div class="container">
+ <div class="container" id="laptop">
         <div class="card-deck">
         <div class="card text-center">
         <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
@@ -202,7 +209,7 @@
     </div>
 </div>
 
-<div class="container" id="Contact Us">
+<div class="container" id="login">
     <div class="row">
         <div class="col-md-4"></div>
         <div style="background: rosybrown; border-radius: 6px; padding: 10px;" class="col-md-4">

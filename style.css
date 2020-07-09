@@ -4,7 +4,13 @@
 
 #top-section{
     margin-bottom: 0px;
+
 }
+.bg-light{
+    background-color: white !important;
+}
+
+
 .carousel-indicators li{
     background-color: tomato;
 }
